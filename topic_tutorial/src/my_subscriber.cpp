@@ -3,7 +3,7 @@
 
 void msgCallback(const std_msgs::String::ConstPtr& msg)
 {
-    ROS_INFO("msg : %s", msg->data.c_str());
+    ROS_INFO("msg : %s ", msg->data.c_str());
 }
 
 int main(int argc, char** argv)
