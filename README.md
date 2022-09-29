@@ -23,6 +23,14 @@ my first ros study
 
 - [과제 1](./topic_test)
 
+### 2022년 9월 29일
+- [msg_tutorial](./msg_tutorial)
+    - msg_tutorial 패키지 생성
+    - msg 디렉토리에 Mymsg.msg 생성
+    - msg_publisher, msg_subscsriber, py_msg_pub.py, py_msg_sub.py 노드 생성
+    - 빌드
+    - 실행
+
 ## ROS 명령어
 ### roscore
 - ROS Master를 실행한다.
