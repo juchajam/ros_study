@@ -32,7 +32,7 @@ my first ros study
     - 실행
 
 - [service_tutorial](./service_tutorial)
-    -service_tutorial 패키지 생성
+    - service_tutorial 패키지 생성
     - srv 디렉토리에 AddTwoInts.srv 생성
     - my_server, my_client, py_server.py, py_client.py 노드 생성
     - 빌드
