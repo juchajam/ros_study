@@ -1,4 +1,4 @@
-## 과제 1
+# 과제 1
 - topic_test 패키지를 만들고, cpp, python 중 원하는 언어를 선택하여 노드를 만든다.
 - publisher 노드 1개, subscriber 노드 1개
 - publisher 노드의 이름은 my_test_publisher이고 std_msgs 패키지의 Int64 메시지를 publish한다.

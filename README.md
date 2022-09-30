@@ -70,7 +70,7 @@ juchajam@ubuntu:~$ catkin_create_pkg topic_tutorial roscpp rospy std_msgs
 - subscriber 노드의 이름은 yh_star_sub이고, ys_star_pub이 publish하는 메시지를 subscribe한다.
 - yh_star_pub은 시간과 정수를 YhStarMsg 메시지에 담아 publish한다.
 - yh_star_sub은 subscribe한 메시지 안의 정수에 따라 printf()함수로 별을 출력한다.(python이면 print())
-ex)
+### ex)
 ```console
 1 -> *
 2 -> *
@@ -88,3 +88,10 @@ ex)
      **
      *
 ```
+
+## 과제3
+- yh_service 패키지를 만들고 service server 노드 1개, service client 노드 1개를 만든다.
+- service server 노드의 이름은 yh_server이고, 요청을 받아 request 안의 정수 a, b를 곱한 값을 response의 result에 넣어 응답한다.
+- service client 노드의 이름은 yh_client이고, request 안에 정수 a, b를 넣어 요청을 보내고 결과값을 출력한다.
+- 정수 a, b는 service client 노드 실행 시 command line을 통해 입력받는다.
+- service 이름은 multiply, service 파일 이름은 YhSrv로 한다.
