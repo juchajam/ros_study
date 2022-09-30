@@ -38,6 +38,20 @@ my first ros study
     - 빌드
     - 실행
 
+### 2022년 9월 30일
+- [과제 2 yh_star](./yh_star)
+- for문 활용해서 별 찍기
+    - yh_star 패키지 생성
+    - yh_star_pub, yh_star_sub, yh_star_pub.py, yh_star_sub.py 노드 생성
+    - 빌드
+    - 실행
+
+- [과제 3 yh_service](./yh_service)
+    - yh_service 패키지 생성
+    - yh_server, yh_client, yh_server.py, yh_client.py 노드 생성
+    - 빌드
+    - 실행
+
 ## ROS 명령어
 ### roscore
 - ROS Master를 실행한다.
@@ -63,35 +77,3 @@ ex)
 ```bash
 juchajam@ubuntu:~$ catkin_create_pkg topic_tutorial roscpp rospy std_msgs
 ```
-
-## 과제2
-- yh_star 패키지를 만들고 publisher 노드 1개, subscriber 노드 1개를 만든다.
-- publisher 노드의 이름은 yh_star_pub이고, yh_star_topic이라는 이름의 토픽으로 0.5초에 한번 메시지를 publish한다.
-- subscriber 노드의 이름은 yh_star_sub이고, ys_star_pub이 publish하는 메시지를 subscribe한다.
-- yh_star_pub은 현재 시간과 처음 값은 1이고 매번 1씩 증가하는 정수를 YhStarMsg 메시지에 담아 publish한다.
-- yh_star_sub은 subscribe한 메시지 안의 정수에 따라 printf()함수로 별을 출력한다.(python이면 print())
-### ex)
-```console
-1 -> *
-2 -> *
-     *
-3 -> *
-     **
-     *
-4 -> *
-     **
-     **
-     *
-5 -> *
-     **
-     ***
-     **
-     *
-```
-
-## 과제3
-- yh_service 패키지를 만들고 service server 노드 1개, service client 노드 1개를 만든다.
-- service server 노드의 이름은 yh_server이고, 요청을 받아 request 안의 정수 a, b를 곱한 값을 response의 result에 넣어 응답한다.
-- service client 노드의 이름은 yh_client이고, request 안에 정수 a, b를 넣어 요청을 보내고 결과값을 출력한다.
-- 정수 a, b는 service client 노드 실행 시 command line을 통해 입력받는다.
-- service 이름은 multiply, service 파일 이름은 YhSrv로 한다.
