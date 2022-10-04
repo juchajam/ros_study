@@ -1,6 +1,12 @@
 # ros_study
 my first ros study
 
+# [과제4](./과제4.pdf)
+
+# [과제5](./과제5.pdf)
+
+# [과제6](./과제6.pdf)
+
 ### 2022년 9월 27일 시작
 - [topic_tutorial](./topic_tutorial)
     - topic_tutorial 패키지 생성
@@ -55,11 +61,6 @@ my first ros study
 ### 2022년 10월 4일
 - [param_tutorial](./param_tutorial)
 
-- [과제4](./과제4.pdf)
-
-- [과제5](./과제5.pdf)
-
-- [과제6](./과제6.pdf)
 
 ## ROS 명령어
 ### roscore
