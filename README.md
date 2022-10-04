@@ -52,6 +52,15 @@ my first ros study
     - 빌드
     - 실행
 
+### 2022년 10월 4일
+- [param_tutorial](./param_tutorial)
+
+- [과제4](./과제4.pdf)
+
+- [과제5](./과제5.pdf)
+
+- [과제6](./과제6.pdf)
+
 ## ROS 명령어
 ### roscore
 - ROS Master를 실행한다.
