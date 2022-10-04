@@ -1,9 +1,9 @@
 # ros_study
 my first ros study
 
-# [과제4](./과제4.pdf)
+# [과제4](./yh_dual/과제4.pdf)
 
-# [과제5](./과제5.pdf)
+# [과제5](./yh_difference/과제5.pdf)
 
 # [과제6](./과제6.pdf)
 
@@ -60,6 +60,14 @@ my first ros study
 
 ## 2022년 10월 4일
 ### [param_tutorial](./param_tutorial)
+- param_tutorial 패키지 생성
+- calculate_server, calculate_client, calculate_server.py, calculate_client.py 노드 생성
+- 빌드
+- 실행
+- [파라미터 서버 활용](#parameter-server)
+
+### [과제4 yh_dual](./yh_dual)
+### [과제5 yh_difference](./yh_difference)
 
 ---
 
