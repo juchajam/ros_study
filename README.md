@@ -9,54 +9,54 @@ my first ros study
 
 ## 2022년 9월 27일 시작
 ### [topic_tutorial](./topic_tutorial)
-    - topic_tutorial 패키지 생성
-    - my_publisher, my_subscriber 노드 생성
-    - 빌드
-    - 실행
+- topic_tutorial 패키지 생성
+- my_publisher, my_subscriber 노드 생성
+- 빌드
+- 실행
 
 ## 2022년 9월 28일
 ### [topic_tutorial](./topic_tutorial)
-    - topic_tutorial 패키지에 python scripts 추가
-    - py_publisher.py, py_subscriber.py 노드 생성
-    - 빌드
-    - 실행
+- topic_tutorial 패키지에 python scripts 추가
+- py_publisher.py, py_subscriber.py 노드 생성
+- 빌드
+- 실행
 
 ### [topic_second](./topic_second)
-    - topic_second 패키지 생성
-    - second_pub, second_sub, py_second_pub.py, py_second_sub.py 노드 생성
-    - 빌드
-    - 실행
+- topic_second 패키지 생성
+- second_pub, second_sub, py_second_pub.py, py_second_sub.py 노드 생성
+- 빌드
+- 실행
 
 ### [과제1: topic_test](./topic_test)
 
 ## 2022년 9월 29일
 ### [msg_tutorial](./msg_tutorial)
-    - msg_tutorial 패키지 생성
-    - msg 디렉토리에 Mymsg.msg 생성
-    - msg_publisher, msg_subscsriber, py_msg_pub.py, py_msg_sub.py 노드 생성
-    - 빌드
-    - 실행
+- msg_tutorial 패키지 생성
+- msg 디렉토리에 Mymsg.msg 생성
+- msg_publisher, msg_subscsriber, py_msg_pub.py, py_msg_sub.py 노드 생성
+- 빌드
+- 실행
 
 ### [service_tutorial](./service_tutorial)
-    - service_tutorial 패키지 생성
-    - srv 디렉토리에 AddTwoInts.srv 생성
-    - my_server, my_client, py_server.py, py_client.py 노드 생성
-    - 빌드
-    - 실행
+- service_tutorial 패키지 생성
+- srv 디렉토리에 AddTwoInts.srv 생성
+- my_server, my_client, py_server.py, py_client.py 노드 생성
+- 빌드
+- 실행
 
 ## 2022년 9월 30일
 ### [과제2: yh_star](./yh_star)
-    - for문 활용해서 별 찍기
-        - yh_star 패키지 생성
-        - yh_star_pub, yh_star_sub, yh_star_pub.py, yh_star_sub.py 노드 생성
-        - 빌드
-        - 실행
-
-### [과제3: yh_service](./yh_service)
-    - yh_service 패키지 생성
-    - yh_server, yh_client, yh_server.py, yh_client.py 노드 생성
+- for문 활용해서 별 찍기
+    - yh_star 패키지 생성
+    - yh_star_pub, yh_star_sub, yh_star_pub.py, yh_star_sub.py 노드 생성
     - 빌드
     - 실행
+
+### [과제3: yh_service](./yh_service)
+- yh_service 패키지 생성
+- yh_server, yh_client, yh_server.py, yh_client.py 노드 생성
+- 빌드
+- 실행
 
 ## 2022년 10월 4일
 ### [param_tutorial](./param_tutorial)
@@ -99,7 +99,7 @@ juchajam@ubuntu:~$ sudo apt install ros-melodic-desktop-full --fix-missing
 ### Parameter Server
 - ROS Master에서 실행되고, 변수들을 담고 있는 서버
 - ros::setParam(), ros::getParam(), rospy.set_param(), rospy.get_param() 등의 함수로 사용
-- command line에서도 rosparam으로 사용 가능
+- command line에서 rosparam으로 사용 가능
 - rosparam list
     - 파라미터 서버의 모든 파라미터를 출력
 ```bash
