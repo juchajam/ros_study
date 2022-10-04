@@ -69,14 +69,14 @@ my first ros study
 ```bash
 juchajam@ubuntu:~$ roscore
 ```
-
+---
 ### rosrun
 - 노드를 실행한다.
 - rosrun 패키지이름 노드이름
 ```bash
 juchajam@ubuntu:~$ rosrun <패키지이름> <노드이름>
 ```
-
+---
 ### catkin_create_pkg
 - 현재 위치한 작업 공간에 패키지를 생성한다.
 - catkin_create_pkg 패키지이름 의존성
@@ -87,14 +87,14 @@ ex)
 ```bash
 juchajam@ubuntu:~$ catkin_create_pkg topic_tutorial roscpp rospy std_msgs
 ```
-
+---
 ### Python3 설치 방법
 - python3 설치
 ```bash
 juchajam@ubuntu:~$ sudo apt install python3-pip python3-all-dev python3-rospkg
 juchajam@ubuntu:~$ sudo apt install ros-melodic-desktop-full --fix-missing
 ```
-
+---
 ### Parameter Server
 - ROS Master에서 실행되고, 변수들을 담고 있는 서버
 - ros::setParam(), ros::getParam(), rospy.set_param(), rospy.get_param() 등의 함수로 사용
