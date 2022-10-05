@@ -7,6 +7,8 @@ my first ros study
 
 # [과제6](./과제6.pdf)
 
+# [과제7](./과제7.pdf)
+
 ## 2022년 9월 27일 시작
 ### [topic_tutorial](./topic_tutorial)
 - topic_tutorial 패키지 생성
