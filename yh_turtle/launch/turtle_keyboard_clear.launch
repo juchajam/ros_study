@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" />
+    <node pkg="yh_turtle" type="turtle_keyboard_clear" name="my_turtle" />
+    <param name="turtlesim/background_r" value="255" type="int" />
+    <param name="turtlesim/background_g" value="100" type="int" />
+    <param name="turtlesim/background_b" value="255" type="int" />
+</launch>
