@@ -137,6 +137,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(turtle_patrol src/turtle_patrol.cpp)
 add_executable(turtle_keyboard src/turtle_keyboard.cpp)
+add_executable(turtle_clear src/turtle_clear.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -148,6 +149,7 @@ add_executable(turtle_keyboard src/turtle_keyboard.cpp)
 ## same as for the library above
 add_dependencies(turtle_patrol ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(turtle_keyboard ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(turtle_clear ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(turtle_patrol
@@ -156,7 +158,9 @@ target_link_libraries(turtle_patrol
 target_link_libraries(turtle_keyboard
   ${catkin_LIBRARIES}
 )
-
+target_link_libraries(turtle_clear
+  ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############

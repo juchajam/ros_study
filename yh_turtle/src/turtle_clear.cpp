@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv)
 {
-    ros::init(argc, argv, "turtle_clear")
+    ros::init(argc, argv, "turtle_clear");
     ros::NodeHandle nh;
 
     ros::ServiceClient clear_client = nh.serviceClient<std_srvs::Empty>("clear");
