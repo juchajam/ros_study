@@ -1,6 +1,8 @@
 # ros_study
 my first ros study
 
+# [turtlesim 연습문제](./yh_turtle/turtlesim%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.pdf)
+
 ## 2022년 9월 27일 시작
 ### [topic_tutorial](./topic_tutorial)
 - topic_tutorial 패키지 생성
